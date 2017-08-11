@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns="http://www.lixi.org.au/schema/cal1.2/MessageBatch"
+	xmlns:lixiCommon="http://www.lixi.org.au/schema/cal1.2/LixiMessageProtocol/Common">
+	<env:Header>
+		<lixiCommon:ServiceCode Type="Receipt">LenderResponse</lixiCommon:ServiceCode>
+		<lixiCommon:Authentication>
+			<lixiCommon:Sender>
+				<lixiCommon:Identifier UniqueID="Infinitive" />
+			</lixiCommon:Sender>
+			<lixiCommon:Recipient>
+				<lixiCommon:Identifier UniqueID="Advantedge" />
+			</lixiCommon:Recipient>
+		</lixiCommon:Authentication>
+		<lixiCommon:RequestStatus Status="Accepted" />
+	</env:Header>
+	<env:Body />
+</env:Envelope>

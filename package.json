@@ -1,0 +1,17 @@
+{
+  "name": "FakeSoapServer",
+  "version": "1.0.0",
+  "description": "Response SOAP posts with static files.",
+  "main": "index.js",
+  "scripts": {
+	"start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhy2002",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-xml-bodyparser": "^0.3.0"
+  }
+}
